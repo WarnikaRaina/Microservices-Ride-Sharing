@@ -5,6 +5,22 @@ const app= express()
 app.use(morgan('dev')) // logging middleware
 
 app.get('/', (req, res)=>{
+
+    for(let i=0; i<1000000000; i++){
+    
+    
+    }
+    
+        res.send('Hello world')
+    })
+
+app.get('/stress-test', (req, res)=>{
+
+for(let i=0; i<1000000000; i++){
+
+
+}
+
     res.send('Hello world')
 })
 
