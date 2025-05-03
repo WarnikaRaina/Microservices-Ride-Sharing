@@ -14,4 +14,7 @@ const run = (url) => {
 };
 
 run('http://localhost:3000/');
+// Removed duplicate run function definition
+
+run('http://localhost:3000/');
 run('http://localhost:3000/stress-test');
